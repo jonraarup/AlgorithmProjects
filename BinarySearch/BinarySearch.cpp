@@ -11,8 +11,8 @@ int searchFunction(std::array<int, 10>const & list, const int searchValue){
   
     if (low > high) {  
         return -1;  
-    }  
-      
+    }
+    // Mid constant
     const int mid = low + (high - low) / 2;  
       
     if (list[mid] == searchValue) {  
